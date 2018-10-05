@@ -1,5 +1,5 @@
-$danger: #cb4335;
-$danger-overlay: rgba(203, 67, 53, 0.8);
+$danger: #a93226;
+$danger-overlay: rgba(169, 50, 38, 0.8);
 
 body {
   margin-top: 105px;
@@ -19,7 +19,7 @@ body {
 #showcase {
   position: relative;
   background: url('../img/fruits.jpg');
-  min-height: 600px;
+  min-height: 400px;
 
   .danger-overlay {
     background: $danger-overlay;
@@ -28,5 +28,25 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+@media (max-width: 766px) {
+  #showcase {
+    min-height: 500px;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
   }
 }
