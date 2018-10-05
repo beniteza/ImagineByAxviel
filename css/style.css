@@ -1,5 +1,5 @@
 body {
-  margin-top: 105px; }
+  margin-top: 98px; }
 
 .navbar {
   box-shadow: 2px 2px 5px #a93226;
@@ -25,6 +25,14 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid; }
+
+#fruits img {
+  margin-top: -50px; }
+#fruits .card:hover {
+  background: #a93226;
+  color: #fff; }
+#fruits .fab {
+  color: #fff; }
 
 @media (max-width: 766px) {
   #showcase {

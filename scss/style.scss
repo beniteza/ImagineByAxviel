@@ -2,7 +2,7 @@ $danger: #a93226;
 $danger-overlay: rgba(169, 50, 38, 0.8);
 
 body {
-  margin-top: 105px;
+  margin-top: 98px;
 }
 
 .navbar {
@@ -35,6 +35,21 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+}
+
+#fruits {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: $danger;
+    color: #fff;
+  }
+
+  .fab {
+    color: #fff;
+  }
 }
 
 @media (max-width: 766px) {
